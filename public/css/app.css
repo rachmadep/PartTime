@@ -8019,7 +8019,7 @@ select.form-control {
 }
 .tab-nav li > a {
   display: block;
-  color: rgba(70, 95, 98, 0.52);
+  color: rgba(255, 255, 255, 0.52);
   text-transform: uppercase;
   position: relative;
   width: 100%;
@@ -8048,7 +8048,7 @@ select.form-control {
 }
 @media (min-width: 768px) {
   .tab-nav li > a {
-    padding: 10px;
+    padding: 3px;
   }
 }
 @media (max-width: 768px) {
@@ -8862,10 +8862,10 @@ p {
   -ms-user-select: none;
   user-select: none;
   /*position: relative;*/
-  padding: 10px 45px 0px 45px;
+  padding: 2px 45px 0px 45px;
   /*margin-bottom: 20px;*/
   z-index: 10;
-  background-color: #2baaba;
+  background-color: rgb(55, 85, 232);
 }
 #header:before,
 #header:after {
@@ -9300,7 +9300,7 @@ p {
   padding: 0px 45px;
   /*margin-bottom: 20px;*/
   z-index: 10;
-  background-color: #2baaba;
+  background-color: rgb(55, 85, 232);
 }
 #header2:before,
 #header2:after {
