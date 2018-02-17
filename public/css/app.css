@@ -2729,7 +2729,7 @@ output {
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .form-control:focus {
-  border-color: rgba(0, 0, 0, 0.75);
+  border-color: rgba(255, 255, 255, 0.75);
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 255, 255, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 255, 255, 0.6);
@@ -3882,12 +3882,21 @@ fieldset[disabled] .btn-danger.focus {
   border-radius: 0;
 }
 .btn-link-login {
-  color: #6dbbff;
+  color: #fff;
   font-weight: normal;
   border-radius: 0;
   padding: 0px 6px;
   margin-bottom: 2px;
+  font-weight: 500;
 }
+
+.btn-link-login:hover,
+.btn-link-login:focus,
+.btn-link-login:active{
+  color: white !important;
+  font-weight: 600;
+}
+
 .btn-link,
 .btn-link:active,
 .btn-link.active,
@@ -7680,7 +7689,7 @@ button.close {
   transition-duration: 200ms;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
-  background-color: #182c36;
+  background-color: #fff;
 }
 .form-group__bar:before {
   left: 50%;
@@ -7711,7 +7720,7 @@ button.close {
   margin-top: 30px;
 }
 .form-group--float > label {
-  color: rgba(44, 49, 51, 0.47);
+  color: rgba(255, 255, 255, 0.61);
   bottom: 9px;
   left: 0;
   position: absolute;
@@ -7736,6 +7745,7 @@ button.close {
 .form-group--centered,
 .form-group--centered .form-control {
   text-align: center;
+  color: #fff;
 }
 .form-group--select:after {
   content: '';
@@ -10720,7 +10730,7 @@ p {
   }
   .login__block__header {
     padding: 40px;
-    background-color: rgb(43, 170, 186) !important;
+    /* background-color: rgb(43, 170, 186) !important; */
   }
 }
 .login__block {
@@ -10769,9 +10779,7 @@ p {
   color: #b4bfc3;
 }
 .login__block__header img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  max-width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -10796,6 +10804,7 @@ p {
 }
 .login__block__body {
   padding: 10px 30px 35px;
+  color: #eaeaea;
 }
 /* Profile */
 .profile:before,

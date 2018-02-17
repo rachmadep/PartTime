@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="theme-color" content="#2baaba">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>PartTime</title>
+        <title>Login | PartTime</title>
 
         <!-- Vendors -->
 
@@ -48,7 +48,7 @@
                   <div class="row">
                     <img src="{{ URL::asset('/img/logo.png') }}" alt="">
                     {{-- <i class="zmdi zmdi-account-circle"></i> --}}
-                    Masukkan E-mail dan Password
+
                   </div>
                   <div class="actions login__block__actions">
                       <div class="dropdown">
@@ -63,6 +63,7 @@
                 </div>
 
                 <div class="login__block__body">
+                    Masukkan E-mail dan Password
                     <form class="form-horizontal" role="form" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
 
@@ -107,12 +108,12 @@
                         </div>
                         <div class="form-group">
                           <div class="">
-                            <a class="btn btn-link-login" href="{{ route('password.request') }}">
+                            <a class="btn-link-login" href="{{ route('password.request') }}">
                                 Lupa Password?
                             </a>
                           </div>
                           <div class="">
-                            Belum Punya Akun?<a class="btn btn-link-login" href="{{ route('password.request') }}">
+                            Belum Punya Akun?<a class="btn-link-login" href="{{ route('register') }}">
                                 Daftar
                             </a>
                           </div>
@@ -121,107 +122,7 @@
                 </div>
 
             </div>
-
-            <!-- Register -->
-            <div class="login__block" id="l-register">
-                <div class="login__block__header palette-Blue bg">
-                    <i class="zmdi zmdi-account-circle"></i>
-                    Membuat Akun Baru
-
-                    <div class="actions login__block__actions">
-                        <div class="dropdown">
-                            <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
-
-                            <ul class="dropdown-menu pull-right">
-                                <li><a data-block="#l-login" href="">Already have an account?</a></li>
-                                <li><a data-block="#l-forget-password" href="">Forgot password?</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="login__block__body">
-                    <div class="form-group form-group--float form-group--centered">
-                        <input type="text" class="form-control">
-                        <label>Nama</label>
-                        <i class="form-group__bar"></i>
-                    </div>
-
-                    <div class="form-group form-group--float form-group--centered">
-                        <input type="text" class="form-control">
-                        <label>No. KTP</label>
-                        <i class="form-group__bar"></i>
-                    </div>
-
-                    <div class="form-group form-group--float form-group--centered">
-                        <input type="text" class="form-control">
-                        <label>No. Telepon</label>
-                        <i class="form-group__bar"></i>
-                    </div>
-
-                    <div class="form-group form-group--float form-group--centered">
-                        <input type="text" class="form-control">
-                        <label>Email Address</label>
-                        <i class="form-group__bar"></i>
-                    </div>
-
-                    <div class="form-group form-group--float form-group--centered">
-                        <input type="password" class="form-control">
-                        <label>Password</label>
-                        <i class="form-group__bar"></i>
-                    </div>
-
-                    <div class="input-centered">
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" value="">
-                                <i class="input-helper"></i>
-                                Accept the license agreement
-                            </label>
-                        </div>
-                    </div>
-
-                    <button class="btn btn--light btn--icon m-t-15"><i class="zmdi zmdi-plus"></i></button>
-                </div>
-            </div>
-
-            <!-- Forgot Password -->
-            <div class="login__block" id="l-forget-password">
-                <div class="login__block__header palette-Purple bg">
-                    <i class="zmdi zmdi-account-circle"></i>
-                    Forgot Password?
-
-                    <div class="actions login__block__actions">
-                        <div class="dropdown">
-                            <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
-
-                            <ul class="dropdown-menu pull-right">
-                                <li><a data-block="#l-login" href="">Already have an account?</a></li>
-                                <li><a data-block="#l-register" href="">Create an account</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="login__block__body">
-                    <p class="m-t-30">Lorem ipsum dolor fringilla enim feugiat commodo sed ac lacus.</p>
-
-                    <div class="form-group form-group--float form-group--centered">
-                        <input type="text" class="form-control">
-                        <label>Email Address</label>
-                        <i class="form-group__bar"></i>
-                    </div>
-
-                    <button class="btn btn--light btn--icon m-t-15"><i class="zmdi zmdi-check"></i></button>
-                </div>
-            </div>
         </div>
-        <!-- <div class="hidden-lg">
-            <h1 class="logo-log">
-                JogjaLapor
-            </h1>
-        </div> -->
-
       </div>
 
         <!-- Older IE Warning -->
