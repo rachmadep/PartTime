@@ -31,38 +31,35 @@
       <!-- particles.js container -->
       <div id="particles-js">
 
-        <div class="header col-lg-12">
+        {{-- <div class="header col-lg-12">
               <div class="hidden-xs">
                   <h1 class="logo-log">
                       PartTime
                   </h1>
               </div>
-        </div>
+        </div> --}}
 
         <div class="login">
 
             <!-- Login -->
             <div class="login__block toggled" id="l-login">
                 <div class="login__block__header">
-                  <!-- <div class="hidden-lg">
-                      <h1 class="logo-log">
-                          JogjaLapor
-                      </h1>
-                  </div> -->
 
-                    <i class="zmdi zmdi-account-circle"></i>
+                  <div class="row">
+                    <img src="{{ URL::asset('/img/logo.png') }}" alt="">
+                    {{-- <i class="zmdi zmdi-account-circle"></i> --}}
                     Masukkan E-mail dan Password
+                  </div>
+                  <div class="actions login__block__actions">
+                      <div class="dropdown">
+                          <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
 
-                    <div class="actions login__block__actions">
-                        <div class="dropdown">
-                            <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
-
-                            <ul class="dropdown-menu pull-right">
-                                <li><a data-block="#l-register" href="">Create an account</a></li>
-                                <li><a data-block="#l-forget-password" href="">Forgot password?</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                          <ul class="dropdown-menu pull-right">
+                              <li><a data-block="#l-register" href="">Create an account</a></li>
+                              <li><a data-block="#l-forget-password" href="">Forgot password?</a></li>
+                          </ul>
+                      </div>
+                  </div>
                 </div>
 
                 <div class="login__block__body">
