@@ -49,12 +49,17 @@
               </a>
           </div>
 
+          <form class="top-search">
+              <input type="text" class="top-search__input" placeholder="Search">
+              <i class="zmdi zmdi-search top-search__reset"></i>
+          </form>
+
           <ul class="top-menu">
 
               <!-- Search -->
-              <li class="top-menu__trigger">
+              {{-- <li class="top-menu__trigger">
                   <a href=""><i class="zmdi zmdi-search"></i></a>
-              </li>
+              </li> --}}
 
               <!-- Profil -->
               <li class="top-menu__alerts" data-mae-action="block-open" data-mae-target="#notifications" data-toggle="tab" data-target="#notifications__messages">
@@ -62,10 +67,8 @@
               </li>
           </ul>
 
-          <form class="top-search">
-              <input type="text" class="top-search__input" placeholder="Search">
-              <i class="zmdi zmdi-search top-search__reset"></i>
-          </form>
+
+
 
       </header>
 @yield('header')
