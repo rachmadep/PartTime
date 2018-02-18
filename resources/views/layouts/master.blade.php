@@ -11,15 +11,15 @@
 
         <!-- Vendors -->
         <!-- Animate CSS -->
-        <link href="vendors/bower_components/animate.css/animate.min.css" rel="stylesheet">
+        <link href="{{ asset('vendors/bower_components/animate.css/animate.min.css') }}" rel="stylesheet">
         <!-- Material Design Icons -->
-        <link href="vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="{{ asset('vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css') }}" rel="stylesheet">
         <!-- Malihu Scrollbar -->
-        <link href="vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+        <link href="{{ asset('vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css') }}" rel="stylesheet">
         <!-- Full Calendar -->
-        <link href="vendors/bower_components/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet">
+        <link href="{{ asset('vendors/bower_components/fullcalendar/dist/fullcalendar.min.css') }}" rel="stylesheet">
         <!-- Site CSS -->
-        <link href="css/app.css" rel="stylesheet">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <!-- Page loader -->
         {{-- <script src="js/page-loader.min.js"></script> --}}
 
@@ -57,9 +57,9 @@
           <ul class="top-menu">
 
               <!-- Search -->
-              {{-- <li class="top-menu__trigger">
+              <li class="top-menu__trigger hidden-lg">
                   <a href=""><i class="zmdi zmdi-search"></i></a>
-              </li> --}}
+              </li>
 
               <!-- Profil -->
               <li class="top-menu__alerts" data-mae-action="block-open" data-mae-target="#notifications" data-toggle="tab" data-target="#notifications__messages">
