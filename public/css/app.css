@@ -163,6 +163,36 @@ a.apply{
 }
 /* End Iklan --------------------------------- */
 
+/* Notifications --------------------------------- */
+.accepted {
+  color: #3755e8;
+}
+.accepted small{
+  color: #7b7b7b;
+}
+.rejected {
+  color: red;
+}
+.rejected small {
+  color: #7b7b7b;
+}
+i.zmdi.zmdi-close.x{
+  float: right;
+  margin-right: -19px;
+  margin-top: -6px;
+  font-size: 20px;
+}
+/* End Notifications --------------------------------- */
+.btn-primary.apply {
+    background: #fff;
+    color: #000;
+    border-left: 4px solid #3755e8;
+}
+.list-group.list-group--striped a {
+  text-align: center;
+    margin: 0 auto;
+    display: block;
+}
 .logo-log {
     width: 223px;
     color: #fff;
@@ -8034,9 +8064,10 @@ select.form-control {
 }
 .list-group__heading {
   color: #000;
+  font-weight: 500;
 }
 .list-group__heading:hover {
-  color: #fff;
+  /* color: #fff; */
 }
 .list-group__text {
   display: block;
@@ -9265,9 +9296,7 @@ p {
 .top-menu__profile{
   background-color: rgb(55, 85, 232);
   height: 142px;
-  /* border-radius: 3px; */
-  /* margin: 0 10px; */
-  /* box-shadow: 0px 4px 7px -2px rgba(0, 0, 0, 0.41); */
+  color: #fff;
 }
 .top-menu__profile > a {
   margin: -5px 0 0 5px;

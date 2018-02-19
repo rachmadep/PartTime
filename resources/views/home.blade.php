@@ -13,13 +13,13 @@
             </h2>
             <div class="card__header card__header--highlight text-center">
               <img src="demo/img/profile-pics/profile-pic.jpg" class="widget-profile__img" alt="">
-              <h2>Malinda Hollway</h2>
+              <h2>Bagas Aji Pratama</h2>
             </div>
             <div class="list-group list-group--striped">
               <div class="row">
                 <div class="col-xs-12">
                   <a href="#">
-                    <button class="btn btn-default btn--icon-text" style="margin-bottom:10px"><i class="zmdi zmdi-account-circle"></i> Lihat Profil</button>
+                    <button class="btn btn-primary apply btn--icon-text" style="margin-bottom:10px"><i class="zmdi zmdi-account-circle"></i> Lihat Profil</button>
                   </a>
                 </div>
               </div>

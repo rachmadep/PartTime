@@ -89,34 +89,24 @@
               <div class="tab-content">
                   <div class="tab-pane active" id="notifications__updates">
                       <div class="list-group">
-                          <a href="" class="list-group-item media">
-                              <div class="pull-left">
-                                  <h2 class="status kuning"><i class="zmdi zmdi-mood"></i></h2>
-                              </div>
-
+                          <a href="#" class="list-group-item media">
+                            <i class="zmdi zmdi-close x"></i>
                               <div class="media-body">
-                                  <div class="list-group__heading">Laporan Sedang Diproses</div>
-                                  <small class="list-group__text">Mohon tunggu tindak lanjut pihak terkait.</small>
+                                <div class="accepted">
+                                  Accepted <small>. now</small>
+                                </div>
+                                  <div class="list-group__heading">Shoe Polisher Shoes & Care</div>
+                                  <small class="list-group__text">Anda mulai bekerja hari Sabtu, 25 Maret 2018</small>
                               </div>
                           </a>
 
-                          <a href="" class="list-group-item media">
-                              <div class="pull-left">
-                                  <img class="avatar-img" src="demo/img/profile-pics/5.jpg" alt="">
-                              </div>
+                          <a href="#" class="list-group-item media">
+                            <i class="zmdi zmdi-close x"></i>
                               <div class="media-body">
-                                  <div class="list-group__heading">Dana Setyaji</div>
-                                  <small class="list-group__text">Mengomentari laporan Anda.</small>
-                              </div>
-                          </a>
-
-                          <a href="" class="list-group-item media">
-                              <div class="pull-left">
-                                  <img class="avatar-img" src="demo/img/profile-pics/4.jpg" alt="">
-                              </div>
-                              <div class="media-body">
-                                  <div class="list-group__heading">Bagas Aji Pratama</div>
-                                  <small class="list-group__text">Mengomentari laporan Anda.</small>
+                                <div class="rejected">
+                                  Rejected <small> . 15 November 2017</small>
+                                </div>
+                                  <div class="list-group__heading">Janitor Rumah Sakit JIH</div>
                               </div>
                           </a>
 
@@ -134,7 +124,7 @@
                   <a data-toggle="dropdown" href="">
                       <img src="img/profile.jpg" alt="">
 
-                  </a><i>Sofyan Aji Nugraha</i>
+                  </a>Bagas Aji Pratama
 
 
                   <ul class="dropdown-menu pull-right dropdown-menu--icon">
@@ -156,29 +146,10 @@
 
               <div class="navigation__menu c-overflow">
                   <ul>
-                      <li><a href="/"><i class="zmdi zmdi-home"></i> Home</a></li>
-                      <li><a href="rumah-sakit"><i class="zmdi zmdi-hospital-alt"></i> Alamat Rumah Sakit</a></li>
-                      <li><a href="rumah-sakit"><i class="zmdi zmdi-shield-security"></i> Alamat Kantor Polisi</a></li>
-                      <li><a href=""><i class="zmdi zmdi-pin"></i> Alamat Instansi</a></li>
-                      <li><a href=""><i class="zmdi zmdi-phone"></i> No. Telepon Penting</a></li>
-
-
-
-                      <!-- <li class="navigation__sub">
-                          <a href="" data-mae-action="submenu-toggle"><i class="zmdi zmdi-collection-item"></i> Sample Pages</a>
-                          <ul>
-                              <li><a href="profile-timeline.html">Profile</a></li>
-                              <li><a href="list-view.html">List View</a></li>
-                              <li><a href="messages.html">Messages</a></li>
-                              <li><a href="pricing-table.html">Pricing Table</a></li>
-                              <li><a href="contacts.html">Contacts</a></li>
-                              <li><a href="wall.html">Wall</a></li>
-                              <li><a href="invoice.html">Invoice</a></li>
-                              <li><a href="login.html">Login and Sign Up</a></li>
-                              <li><a href="lockscreen.html">Lockscreen</a></li>
-                              <li><a href="404.html">Error 404</a></li>
-                          </ul>
-                      </li> -->
+                      <li><a href="/"><i class="zmdi zmdi-account-circle"></i> Akun</a></li>
+                      <li><a href="rumah-sakit"><i class="zmdi zmdi-settings"></i> Pengaturan</a></li>
+                      <li><a href="rumah-sakit"><i class="zmdi zmdi-help"></i> Bantuan</a></li>
+                      <li><a href=""><i class="zmdi zmdi-caret-left-circle"></i> Keluar</a></li>
                   </ul>
               </div>
           </aside>
