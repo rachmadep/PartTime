@@ -236,7 +236,6 @@
                   </div>
                 </div>
                 {{-- end row iklan --}}
-                <hr>
                 <div class="row">
                   <a href="#" class="btn btn-info selengkapny">Lihat Selengkapny</a>
                 </div>
@@ -329,7 +328,6 @@
                   </div>
                 </div>
                 {{-- end row iklan --}}
-                <hr>
                 <div class="row">
                   <a href="#" class="btn btn-info selengkapny">Lihat Selengkapny</a>
                 </div>
