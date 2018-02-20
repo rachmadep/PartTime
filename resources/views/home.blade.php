@@ -80,7 +80,7 @@
               <div class="list-group">
                 {{-- row iklan --}}
                 <div class="row list-iklan">
-                  <div class="col-lg-2 col-md-2 col-xs-2 gambar">
+                  <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
                       <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
                     </div>
@@ -92,18 +92,18 @@
                       </a>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
-                        </li>
-                        <li>
                           <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
                         </li>
                         <li>
                           <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
                         </li>
+                        <li class="fee">
+                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
+                        </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="col-lg-1 col-md-1 col-xs-1 aksi">
+                  <div class="col-lg-1 col-md-1 col-xs-12 aksi">
                     <div class="aksi-iklan">
                       <ul>
                         <li>
@@ -120,7 +120,7 @@
 
                 {{-- row iklan --}}
                 <div class="row list-iklan">
-                  <div class="col-lg-2 col-md-2 col-xs-2 gambar">
+                  <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
                       <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
                     </div>
@@ -132,18 +132,18 @@
                       </a>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
-                        </li>
-                        <li>
                           <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
                         </li>
                         <li>
                           <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
                         </li>
+                        <li class="fee">
+                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
+                        </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="col-lg-1 col-md-1 col-xs-1 aksi">
+                  <div class="col-lg-1 col-md-1 col-xs-12 aksi">
                     <div class="aksi-iklan">
                       <ul>
                         <li>
@@ -160,7 +160,7 @@
 
                 {{-- row iklan --}}
                 <div class="row list-iklan">
-                  <div class="col-lg-2 col-md-2 col-xs-2 gambar">
+                  <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
                       <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
                     </div>
@@ -172,18 +172,18 @@
                       </a>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
-                        </li>
-                        <li>
                           <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
                         </li>
                         <li>
                           <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
                         </li>
+                        <li class="fee">
+                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
+                        </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="col-lg-1 col-md-1 col-xs-1 aksi">
+                  <div class="col-lg-1 col-md-1 col-xs-12 aksi">
                     <div class="aksi-iklan">
                       <ul>
                         <li>
@@ -199,7 +199,7 @@
                 {{-- end row iklan --}}
                 {{-- row iklan --}}
                 <div class="row list-iklan">
-                  <div class="col-lg-2 col-md-2 col-xs-2 gambar">
+                  <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
                       <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
                     </div>
@@ -211,18 +211,18 @@
                       </a>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
-                        </li>
-                        <li>
                           <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
                         </li>
                         <li>
                           <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
                         </li>
+                        <li class="fee">
+                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
+                        </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="col-lg-1 col-md-1 col-xs-1 aksi">
+                  <div class="col-lg-1 col-md-1 col-xs-12 aksi">
                     <div class="aksi-iklan">
                       <ul>
                         <li>
@@ -236,6 +236,7 @@
                   </div>
                 </div>
                 {{-- end row iklan --}}
+                <hr>
                 <div class="row">
                   <a href="#" class="btn btn-info selengkapny">Lihat Selengkapny</a>
                 </div>
@@ -252,7 +253,7 @@
               <div class="list-group">
                 {{-- row iklan --}}
                 <div class="row list-iklan">
-                  <div class="col-lg-2 col-md-2 col-xs-2 gambar">
+                  <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
                       <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
                     </div>
@@ -264,18 +265,18 @@
                       </a>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
-                        </li>
-                        <li>
                           <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
                         </li>
                         <li>
                           <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
                         </li>
+                        <li class="fee">
+                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
+                        </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="col-lg-1 col-md-1 col-xs-1 aksi">
+                  <div class="col-lg-1 col-md-1 col-xs-12 aksi">
                     <div class="aksi-iklan">
                       <ul>
                         <li>
@@ -291,7 +292,7 @@
                 {{-- end row iklan --}}
                 {{-- row iklan --}}
                 <div class="row list-iklan">
-                  <div class="col-lg-2 col-md-2 col-xs-2 gambar">
+                  <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
                       <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
                     </div>
@@ -303,18 +304,18 @@
                       </a>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
-                        </li>
-                        <li>
                           <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
                         </li>
                         <li>
                           <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
                         </li>
+                        <li class="fee">
+                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
+                        </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="col-lg-1 col-md-1 col-xs-1 aksi">
+                  <div class="col-lg-1 col-md-1 col-xs-12 aksi">
                     <div class="aksi-iklan">
                       <ul>
                         <li>
@@ -328,6 +329,10 @@
                   </div>
                 </div>
                 {{-- end row iklan --}}
+                <hr>
+                <div class="row">
+                  <a href="#" class="btn btn-info selengkapny">Lihat Selengkapny</a>
+                </div>
               </div>
           </div>
         </div>{{-- End Terbaru --}}

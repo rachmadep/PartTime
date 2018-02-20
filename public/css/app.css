@@ -139,13 +139,12 @@ Author:         Rushan [http://bootstrapsale.com]
   margin: 8px 0px;
 }
 a.nama-iklan {
-  /* margin-top: 5px; */
   color: #000;
   font-size: 26px;
 }
 a.selengkapny {
   float: right;
-  margin-right: 10px;
+  margin-right: 15px;
   margin-bottom: 10px;
   border-left: 6px solid #1e88e5;
   color: #00002f;
@@ -161,6 +160,44 @@ a.apply{
   color: #00002f;
   background-color: #fff;
 }
+.fee {
+  color: green;
+}
+@media (max-width: 768px) {
+  .list-iklan {
+    border-bottom: 1px solid rgba(243, 243, 243, 0.93);
+  }
+  .list-iklan .deskripsi{
+    padding: 0px;
+  }
+  .list-iklan .gambar {
+    margin: 5px;
+    padding: 0px;
+  }
+  .gambar-iklan img {
+  	width: 100%;
+  	max-height: 8.6em;
+  }
+  .deskripsi-iklan{
+    margin-top: 0px;
+  }
+  a.nama-iklan {
+    color: #000;
+    font-size: 20px;
+  }
+  .aksi-iklan {
+    margin-top: -10px;
+    margin-left: -8px;
+    float: right;
+  }
+  .aksi-iklan ul li {
+    display: inline;
+  }
+  hr {
+    margin-top: 0px;
+  }
+
+}
 /* End Iklan --------------------------------- */
 
 /* Notifications --------------------------------- */
@@ -168,6 +205,12 @@ a.apply{
   color: #3755e8;
 }
 .accepted small{
+  color: #7b7b7b;
+}
+.interview {
+  color: green;
+}
+.interview small{
   color: #7b7b7b;
 }
 .rejected {
@@ -9481,7 +9524,7 @@ p {
 }
 @media (max-width: 1279px) {
   #navigation {
-    padding-top: 70px;
+    /* padding-top: 70px; */
     -webkit-transform: translate3d(-320px, 0, 0);
     transform: translate3d(-320px, 0, 0);
     position: fixed;
@@ -13235,4 +13278,9 @@ div.color-picker__value {
 }
 .mCS-minimal-dark.mCSB_scrollTools_onDrag .mCSB_dragger .mCSB_dragger_bar {
   background: rgba(255, 255, 255, 0.3) !important;
+}
+@media (max-width: 768px){
+  .btn {
+    padding: 2px 9px;
+  }
 }

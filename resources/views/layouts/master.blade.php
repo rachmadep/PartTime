@@ -96,7 +96,18 @@
                                   Accepted <small>. now</small>
                                 </div>
                                   <div class="list-group__heading">Shoe Polisher Shoes & Care</div>
-                                  <small class="list-group__text">Anda mulai bekerja hari Sabtu, 25 Maret 2018</small>
+                                  <small class="list-group__text">Anda mulai bekerja hari Sabtu, 3 Maret 2018</small>
+                              </div>
+                          </a>
+
+                          <a href="#" class="list-group-item media">
+                            <i class="zmdi zmdi-close x"></i>
+                              <div class="media-body">
+                                <div class="interview">
+                                  Interview <small>. 20 Februari 2018</small>
+                                </div>
+                                  <div class="list-group__heading">Shoe Polisher Shoes & Care</div>
+                                  <small class="list-group__text">Anda diundang interview pada hari Jumat, 23 Februari 2018</small>
                               </div>
                           </a>
 
