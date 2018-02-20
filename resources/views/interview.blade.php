@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 {{-- Page title --}}
-@section('title', 'Pengajar Indonesia Android Kejar')
+@section('title', 'Interview')
 
 @section('content')
     <section id="content">
@@ -74,7 +74,7 @@
         <div class="row lists">{{-- Terpopuler --}}
           <div class="card">
               <h2 class="card__header">
-                Lowongan Kerja
+                Interview
               </h2>
               <hr>
               <div class="list-group">
@@ -82,19 +82,19 @@
                 <div class="row iklan">
                   <div class="col-lg-4 col-md-4 col-xs-11 gambar">
                     <div class="gambar-iklan">
-                      <img src="{{ asset('img/pekerjaan/android-kejar.jpg') }}" alt="">
+                      <img src="{{ asset('img/pekerjaan/shoes.jpg') }}" alt="">
                     </div>
                   </div>
                   <div class="col-lg-7 col-md-7 col-xs-11 deskripsi">
                     <div class="deskripsi-iklan">
                       <a href="#" class="nama-iklan">
-                        Pengajar Indonesia Android Kejar
+                        Shoe Polisher Shoes & Care
                         <div class="kategori">
-                          Pengajar
+                          Cleaning & Janitor
                         </div>
                       </a>
                       <div class="posting">
-                        Ardan Bagus - 5 Februari 2018
+                        20 Februari 2018
                       </div>
                       <ul>
                         <li>
@@ -138,7 +138,7 @@
                           <a href="#" class="btn btn-success detail">Lihat</a>
                         </li> --}}
                         <li>
-                          <a href="#" class="btn btn-primary apply" data-toggle="modal" data-target="#myModal">Apply</a>
+                          <a href="#" class="btn btn-primary apply">Apply</a>
                         </li>
                       </ul>
                     </div>
@@ -150,27 +150,6 @@
               </div>
           </div>
         </div>{{-- End Terpopuler --}}
-      </div>
-
-      <!-- Modal -->
-      <div class="modal fade" id="myModal">
-          <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                      <h4 class="modal-title">
-                          Anda yakin Apply pada lowongan pekerjaan ini?
-                          {{-- <small>Modal description</small> --}}
-                      </h4>
-                  </div>
-                  {{-- <div class="modal-body">
-                      ...
-                  </div> --}}
-                  <div class="modal-footer">
-                      <button type="button" class="btn btn-link" data-dismiss="modal">Tidak</button>
-                      <button type="button" class="btn btn-link">Ya</button>
-                  </div>
-              </div>
-          </div>
       </div>
 
     </section>

@@ -342,25 +342,5 @@
         </div>{{-- End Terbaru --}}
       </div>
 
-      <!-- Modal -->
-      <div class="modal fade" id="myModal">
-          <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                      <h4 class="modal-title">
-                          Anda yakin Apply pada lowongan pekerjaan ini?
-                          {{-- <small>Modal description</small> --}}
-                      </h4>
-                  </div>
-                  {{-- <div class="modal-body">
-                      ...
-                  </div> --}}
-                  <div class="modal-footer">
-                      <button type="button" class="btn btn-link" data-dismiss="modal">Tidak</button>
-                      <button type="button" class="btn btn-link">Ya</button>
-                  </div>
-              </div>
-          </div>
-      </div>
     </section>
 @endsection

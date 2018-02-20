@@ -100,7 +100,7 @@
                               </div>
                           </a>
 
-                          <a href="#" class="list-group-item media">
+                          <a href="interview" class="list-group-item media">
                             <i class="zmdi zmdi-close x"></i>
                               <div class="media-body">
                                 <div class="interview">
@@ -159,7 +159,7 @@
                   <ul>
                       <li><a href="/"><i class="zmdi zmdi-home"></i> Home</a></li>
                       <li><a href="/"><i class="zmdi zmdi-account-circle"></i> Akun</a></li>
-                      <li><a href="/"><i class="zmdi zmdi-plus-circle"></i> Buat Lowongan Kerja</a></li>
+                      <li><a href="/"><i class="zmdi zmdi-plus-circle"></i> Lowongan Kerja</a></li>
                       <li><a href="rumah-sakit"><i class="zmdi zmdi-settings"></i> Pengaturan</a></li>
                       <li><a href="rumah-sakit"><i class="zmdi zmdi-help"></i> Bantuan</a></li>
                       <li><a href=""><i class="zmdi zmdi-caret-left-circle"></i> Keluar</a></li>
