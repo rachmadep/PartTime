@@ -19,7 +19,7 @@
               <div class="row">
                 <div class="col-xs-12">
                   <a href="#">
-                    <button class="btn btn-primary apply btn--icon-text" style="margin-bottom:10px"><i class="zmdi zmdi-account-circle"></i> Lihat Profil</button>
+                    <button class="btn btn-primary apply btn--icon-text" style="margin-bottom:10px"><i class="zmdi zmdi-account-circle"></i> Lihat Akun</button>
                   </a>
                 </div>
               </div>
@@ -82,23 +82,29 @@
                 <div class="row list-iklan">
                   <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
-                      <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
+                      <img src="{{ asset('img/pekerjaan/android-kejar.jpg') }}" alt="">
                     </div>
                   </div>
                   <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
                     <div class="deskripsi-iklan">
                       <a href="#" class="nama-iklan">
-                          Barista Antalogi
+                        Pengajar Indonesia Android Kejar
+                        <div class="kategori">
+                          Pengajar
+                        </div>
                       </a>
+                      <div class="posting">
+                        Ardan Bagus - 5 Februari 2018
+                      </div>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
+                          <i class="zmdi zmdi-calendar"></i> Sabtu-Minggu, 09.00-15.00 WIB
                         </li>
                         <li>
-                          <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
+                          <i class="zmdi zmdi-pin"></i> Gedung EDS Jalan Asam Kranji, Yogyakarta
                         </li>
                         <li class="fee">
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
+                          <i class="zmdi zmdi-local-offer"></i> Rp. 400.000 per hari
                         </li>
                       </ul>
                     </div>

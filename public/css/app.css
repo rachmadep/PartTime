@@ -164,8 +164,32 @@ a.apply{
 .fee {
   color: green;
 }
+.nama-iklan .kategori {
+    font-size: 11px;
+    background: #1e88e5;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 3px 9px;
+    line-height: 1.42857143;
+    border-radius: 6px;
+}
+.deskripsi-iklan .posting {
+    padding: 0px;
+    font-size: 0.9em;
+}
 @media (max-width: 768px) {
   .list-iklan {
+    height: inherit;
     border-bottom: 1px solid rgba(243, 243, 243, 0.93);
   }
   .list-iklan .deskripsi{
@@ -227,6 +251,112 @@ i.zmdi.zmdi-close.x{
   font-size: 20px;
 }
 /* End Notifications --------------------------------- */
+/* Iklan single --------------------------------- */
+.iklan {
+  /* height: 10.3em; */
+  border-left: 2px solid #fff;
+}
+.iklan .gambar {
+  margin: 10px;
+  padding: 0px;
+}
+.iklan .gambar-iklan img {
+	width: 100%;
+	max-height: none;
+}
+.deskripsi-iklan{
+  margin-top: 5px;
+}
+
+.deskripsi-iklan p{
+  margin-left: 13px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #505050;
+}
+.deskripsi-iklan ul{
+  list-style-type: none;
+  padding-left: 2px;
+  margin-top: 8px;
+}
+.deskripsi-iklan ul li {
+  color: #000;
+}
+.iklan .aksi-iklan {
+  margin-top: 2em;
+  float: right;
+}
+.iklan .aksi-iklan ul {
+  list-style-type: none;
+  padding-left: 2px;
+}
+.iklan .aksi-iklan ul li {
+  margin: 8px 8px;
+  display: inline;
+}
+a.nama-iklan {
+  color: #000;
+  font-size: 26px;
+  line-height: 11px;
+}
+a.selengkapny {
+  float: right;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-left: 6px solid #1e88e5;
+  color: #00002f;
+  background-color: #fff;
+}
+a.detail {
+  border-left: 6px solid #4caf50;
+  color: #00002f;
+  background-color: #fff;
+}
+a.apply{
+  border-left: 6px solid #3755e8;
+  color: #00002f;
+  background-color: #fff;
+}
+.fee {
+  color: green !important;
+}
+@media (max-width: 768px) {
+  .list-iklan {
+    border-bottom: 1px solid rgba(243, 243, 243, 0.93);
+  }
+  .list-iklan .deskripsi{
+    padding: 0px;
+  }
+  .list-iklan .gambar {
+    margin: 5px;
+    padding: 0px;
+  }
+  .gambar-iklan img {
+  	width: 100%;
+  	max-height: 8.6em;
+  }
+  .iklan .deskripsi-iklan{
+    margin-top: 5px;
+  }
+  a.nama-iklan {
+    color: #000;
+    font-size: 20px;
+  }
+  .aksi-iklan {
+    margin-top: -8px;
+    margin-left: -8px;
+    float: right;
+  }
+  .aksi-iklan ul li {
+    display: inline;
+  }
+  hr {
+    margin-top: 0px;
+  }
+
+}
+/* End Iklan-single --------------------------------- */
 .btn-primary.apply {
     background: #fff;
     color: #000;

@@ -157,7 +157,9 @@
 
               <div class="navigation__menu c-overflow">
                   <ul>
+                      <li><a href="/"><i class="zmdi zmdi-home"></i> Home</a></li>
                       <li><a href="/"><i class="zmdi zmdi-account-circle"></i> Akun</a></li>
+                      <li><a href="/"><i class="zmdi zmdi-plus-circle"></i> Buat Lowongan Kerja</a></li>
                       <li><a href="rumah-sakit"><i class="zmdi zmdi-settings"></i> Pengaturan</a></li>
                       <li><a href="rumah-sakit"><i class="zmdi zmdi-help"></i> Bantuan</a></li>
                       <li><a href=""><i class="zmdi zmdi-caret-left-circle"></i> Keluar</a></li>
