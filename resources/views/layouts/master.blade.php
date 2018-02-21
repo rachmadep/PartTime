@@ -133,7 +133,7 @@
 
               <div class="top-menu__profile dropdown">
                   <a data-toggle="dropdown" href="">
-                      <img src="img/profile.jpg" alt="">
+                      <img src="{{ asset('img/profil/bagas.png') }}" alt="">
 
                   </a>Bagas Aji Pratama
 
@@ -220,6 +220,7 @@
       <!-- Javascript Libraries -->
 
       <!-- jQuery -->
+      {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script> --}}
       <script src="vendors/bower_components/jquery/dist/jquery.min.js"></script>
 
       <!-- Bootstrap -->

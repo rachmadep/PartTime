@@ -16,6 +16,7 @@
 // });
 Route::get('/', 'HomeController@index');
 Route::get('1', 'HomeController@index1');
+Route::get('2', 'HomeController@index2');
 Route::get('search', 'HomeController@search');
 Route::get('kerja', 'HomeController@kerja');
 Route::get('interview', 'DashboardController@interview');

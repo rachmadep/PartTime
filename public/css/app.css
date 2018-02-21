@@ -105,6 +105,12 @@ Author:         Rushan [http://bootstrapsale.com]
 }
 /* End Kategori --------------------------------- */
 
+.filter{
+  display: inline;
+  float: right;
+  margin: -51px 32px;
+  font-size: 29px;
+}
 /* Iklan --------------------------------- */
 .list-iklan {
   height: 10.3em;
@@ -188,6 +194,7 @@ a.apply{
     font-size: 0.9em;
 }
 @media (max-width: 768px) {
+
   .list-iklan {
     height: inherit;
     border-bottom: 1px solid rgba(243, 243, 243, 0.93);
@@ -277,7 +284,7 @@ i.zmdi.zmdi-close.x{
 .deskripsi-iklan ul{
   list-style-type: none;
   padding-left: 2px;
-  margin-top: 8px;
+  /* margin-top: 8px; */
 }
 .deskripsi-iklan ul li {
   color: #000;
@@ -315,6 +322,11 @@ a.detail {
 }
 a.apply{
   border-left: 6px solid #3755e8;
+  color: #00002f;
+  background-color: #fff;
+}
+a.danger {
+  border-left: 6px solid red;
   color: #00002f;
   background-color: #fff;
 }
@@ -357,6 +369,32 @@ a.apply{
 
 }
 /* End Iklan-single --------------------------------- */
+
+
+/* Notifikasi --------------------------------- */
+.judul-notif {
+  margin: 0px 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #3755e8;
+}
+.judul-notif small {
+  color: #656565;
+  font-size: 12px;
+}
+.isi-notif {
+  margin: 0px 10px;
+  font-size: 15px;
+  color: #000;
+}
+.isi-notif2 {
+  /* margin: 0px 10px; */
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000;
+}
+/* End Notifikasi --------------------------------- */
+
 .btn-primary.apply {
     background: #fff;
     color: #000;
@@ -7682,7 +7720,7 @@ button.close {
 .checkbox label,
 .radio label {
   display: block;
-  padding-left: 0px;
+  padding-left: 20px;
   position: relative;
 }
 .checkbox,
@@ -9979,6 +10017,7 @@ h2.card__header {
   font-size: 24px;
   font-weight: 500;
   border-left: 5px solid rgba(55, 85, 232, 0.79);
+  width: 90%;
 }
 @media (min-width: 768px) {
   .card__header {
@@ -13420,5 +13459,20 @@ div.color-picker__value {
     min-height: 1px;
     padding-left: 8px;
     padding-right: 8px;
+  }
+  h2.card__header {
+    position: relative;
+    border-radius: 2px 2px 0 0;
+    color: #636363;
+    font-size: 22px;
+    font-weight: 500;
+    border-left: 5px solid rgba(55, 85, 232, 0.79);
+    width: 75%;
+  }
+  .filter {
+      display: inline;
+      float: right;
+      margin: -51px 32px;
+      font-size: 20px;
   }
 }

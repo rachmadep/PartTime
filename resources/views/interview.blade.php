@@ -12,7 +12,7 @@
               Profil
             </h2>
             <div class="card__header card__header--highlight text-center">
-              <img src="demo/img/profile-pics/profile-pic.jpg" class="widget-profile__img" alt="">
+              <img src="{{ asset('img/profil/bagas.png') }}" class="widget-profile__img" alt="">
               <h2>Bagas Aji Pratama</h2>
             </div>
             <div class="list-group list-group--striped">
@@ -74,13 +74,19 @@
         <div class="row lists">{{-- Terpopuler --}}
           <div class="card">
               <h2 class="card__header">
-                Interview
+                Notification
               </h2>
               <hr>
               <div class="list-group">
                 {{-- row iklan --}}
-                <div class="row iklan">
-                  <div class="col-lg-4 col-md-4 col-xs-11 gambar">
+                <div class="row iklan notifikasi">
+                  <div class="judul-notif">
+                    Interview <small>. 20 Februari 2018</small>
+                  </div>
+                  <div class="isi-notif">
+                    Selamat, Anda diundang interview oleh Shoe Polisher Shoes & Care :
+                  </div><br>
+                  <div class="col-lg-2 col-md-2 col-xs-11 gambar">
                     <div class="gambar-iklan">
                       <img src="{{ asset('img/pekerjaan/shoes.jpg') }}" alt="">
                     </div>
@@ -92,32 +98,25 @@
                         <div class="kategori">
                           Cleaning & Janitor
                         </div>
-                      </a>
-                      <div class="posting">
-                        20 Februari 2018
+                      </a><br>
+                      <div class="isi-notif2">
+                        Waktu dan Tempat :
                       </div>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-calendar"></i> Sabtu-Minggu, 09.00-15.00 WIB
+                          <i class="zmdi zmdi-calendar"></i> Jumat, 23 Februari 2018
+                        </li>
+                        <li>
+                          <i class="zmdi zmdi-time"></i> 10.00 WIB
                         </li>
                         <li>
                           <i class="zmdi zmdi-pin"></i> Gedung EDS Jalan Asam Kranji, Yogyakarta
-                        </li>
-                        <li>
-                          <i class="zmdi zmdi-edit"></i> Pendidikan : SMA/SMK
-                        </li>
-                        <li>
-                          <i class="zmdi zmdi-account"></i> Laki-Laki dan Perempuan
-                        </li>
-                        <li class="fee">
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 400.000 per hari
                         </li><br>
                         <li>
-                          <i class="zmdi zmdi-view-list-alt"></i> Deskripsi :
+                          <i class="zmdi zmdi-view-list-alt"></i> Yang perlu disiapkan untuk interview :
                           <p>
-                            Dibutuhkan Developer yang mahir dalam : <br>
-                            1. Back-End dengan Django. <br>
-                            2. Front-End dengan Ionic. <br><br>
+                            1. CV (Curriculum Vitae) <br>
+                            2. Data Diri <br><br>
 
                           </p>
                         </li>
@@ -134,11 +133,11 @@
                   <div class="col-lg-12 col-md-12 col-xs-11 aksi">
                     <div class="aksi-iklan">
                       <ul>
-                        {{-- <li>
-                          <a href="#" class="btn btn-success detail">Lihat</a>
-                        </li> --}}
                         <li>
-                          <a href="#" class="btn btn-primary apply">Apply</a>
+                          <a href="#" class="btn btn-danger danger">Reject</a>
+                        </li>
+                        <li>
+                          <a href="#" class="btn btn-primary apply">Accept</a>
                         </li>
                       </ul>
                     </div>
