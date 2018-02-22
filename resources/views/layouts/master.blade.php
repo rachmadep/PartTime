@@ -49,7 +49,7 @@
               </a>
           </div>
 
-          <form class="top-search">
+          <form class="top-search" action="search">
               <input type="text" class="top-search__input" placeholder="Search">
               <i class="zmdi zmdi-search top-search__reset"></i>
           </form>
@@ -158,11 +158,11 @@
               <div class="navigation__menu c-overflow">
                   <ul>
                       <li><a href="/"><i class="zmdi zmdi-home"></i> Home</a></li>
-                      <li><a href="/"><i class="zmdi zmdi-account-circle"></i> Akun</a></li>
-                      <li><a href="/"><i class="zmdi zmdi-plus-circle"></i> Lowongan Kerja</a></li>
-                      <li><a href="rumah-sakit"><i class="zmdi zmdi-settings"></i> Pengaturan</a></li>
-                      <li><a href="rumah-sakit"><i class="zmdi zmdi-help"></i> Bantuan</a></li>
-                      <li><a href=""><i class="zmdi zmdi-caret-left-circle"></i> Keluar</a></li>
+                      <li><a href="akun"><i class="zmdi zmdi-account-circle"></i> Akun</a></li>
+                      <li><a href="lowongan-saya"><i class="zmdi zmdi-plus-circle"></i> Lowongan Kerja</a></li>
+                      <li><a href="#"><i class="zmdi zmdi-settings"></i> Pengaturan</a></li>
+                      <li><a href="#"><i class="zmdi zmdi-help"></i> Bantuan</a></li>
+                      <li><a href="login"><i class="zmdi zmdi-caret-left-circle"></i> Keluar</a></li>
                   </ul>
               </div>
           </aside>
@@ -267,6 +267,8 @@
       <script src="demo/js/misc.js"></script>
       <script src="demo/js/sparkline-charts.js"></script>
       <script src="demo/js/calendar.js"></script>
+
+      @yield('page_js')
 
       <!-- Site Functions & Actions -->
       <script src="js/app.min.js"></script>

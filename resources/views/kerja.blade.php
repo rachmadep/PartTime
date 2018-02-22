@@ -12,7 +12,7 @@
               Profil
             </h2>
             <div class="card__header card__header--highlight text-center">
-              <img src="demo/img/profile-pics/profile-pic.jpg" class="widget-profile__img" alt="">
+              <img src="{{ asset('img/profil/bagas.png') }}" class="widget-profile__img" alt="">
               <h2>Bagas Aji Pratama</h2>
             </div>
             <div class="list-group list-group--striped">

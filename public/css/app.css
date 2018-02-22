@@ -193,6 +193,7 @@ a.apply{
     padding: 0px;
     font-size: 0.9em;
 }
+
 @media (max-width: 768px) {
 
   .list-iklan {
@@ -12825,6 +12826,21 @@ body.overflow-hidden {
 .table-bootgrid__pagination .next > a:before {
   content: '\f301';
 }
+.form-group--float > label.black {
+    color: #000;
+    bottom: 9px;
+    left: 0;
+    position: absolute;
+    font-size: 13px;
+    margin: 0;
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
 @media (max-width: 767px) {
   .table-bootgrid__pagination > li[class*="page-"] {
     display: none;
@@ -13090,9 +13106,9 @@ div.color-picker__value {
   color: #546d7c;
 }
 .bootstrap-datetimepicker-widget.dropdown-menu {
-  padding: 0;
-  width: 280px;
-  margin-top: 0;
+  padding: 0 !important;
+  width: auto !important;
+  margin-top: 0 !important;
 }
 .bootstrap-datetimepicker-widget.dropdown-menu:after,
 .bootstrap-datetimepicker-widget.dropdown-menu:before {
@@ -13448,6 +13464,18 @@ div.color-picker__value {
 }
 .mCS-minimal-dark.mCSB_scrollTools_onDrag .mCSB_dragger .mCSB_dragger_bar {
   background: rgba(255, 255, 255, 0.3) !important;
+}
+.link {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.link2 {
+  margin-left: 10px;
+}
+.cv img {
+  width: 100%;
+  margin-top: 5px;
 }
 @media (max-width: 768px){
   .btn {

@@ -22,7 +22,7 @@ Route::get('kerja', 'HomeController@kerja');
 Route::get('interview', 'DashboardController@interview');
 Route::get('input-profil', 'DashboardController@input-profil');
 Route::get('akun', 'DashboardController@akun');
-Route::get('lowongan-saya', 'DashboardController@buat-lowongan');
+Route::get('lowongan-saya', 'DashboardController@lowongan_saya');
 
 
 // Route::get('about', 'HomeController@about');

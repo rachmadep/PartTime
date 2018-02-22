@@ -15,4 +15,14 @@ class DashboardController extends Controller
   {
     return view('interview');
   }
+
+  public function akun()
+  {
+    return view('akun');
+  }
+
+  public function lowongan_saya()
+  {
+    return view('lowongan-saya');
+  }
 }

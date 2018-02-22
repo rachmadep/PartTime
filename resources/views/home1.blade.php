@@ -2,6 +2,10 @@
 
 {{-- Page title --}}
 @section('title', 'Home')
+@section('header_styles')
+  <!-- CSS -->
+<link href="vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+@endsection
 
 @section('content')
     <section id="content">
@@ -12,13 +16,16 @@
               Profil
             </h2>
             <div class="card__header card__header--highlight text-center">
-              <img src="{{ asset('img/profil/bagas.png') }}" class="widget-profile__img" alt="">
+              <img src="{{ asset('img/profil/profil.png') }}" class="widget-profile__img" alt="">
               <h2>Bagas Aji Pratama</h2>
             </div>
             <div class="list-group list-group--striped">
               <div class="row">
                 <div class="col-xs-12">
-                  <a href="akun">
+                  <a href="#">
+                    <button class="btn btn-primary apply btn--icon-text" data-toggle="modal" data-target="#lengkapi" style="margin-bottom:10px"><i class="zmdi zmdi-plus-circle"></i> Lengkapi Profil</button>
+                  </a>
+                  <a href="#">
                     <button class="btn btn-primary apply btn--icon-text" style="margin-bottom:10px"><i class="zmdi zmdi-account-circle"></i> Lihat Akun</button>
                   </a>
                 </div>
@@ -87,7 +94,7 @@
                   </div>
                   <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
                     <div class="deskripsi-iklan">
-                      <a href="kerja" class="nama-iklan">
+                      <a href="#" class="nama-iklan">
                         Pengajar Indonesia Android Kejar
                         <div class="kategori">
                           Pengajar
@@ -362,5 +369,85 @@
               </div>
           </div>
       </div>
+      <!-- Modal -->
+      <div class="modal fade" id="lengkapi">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title">
+                          Lengkapi Profil
+                          <small>Bagas Aji Pratama</small>
+                      </h4>
+                  </div>
+                  <div class="modal-body">
+                    <form class="" action="index.html" method="post">
+                      <div class="fileinput fileinput-new" data-provides="fileinput">
+                          <div class="fileinput-preview" data-trigger="fileinput"></div>
+
+                          <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                          <span class="btn btn-default btn-file">
+                              <span class="fileinput-new">Pilih Foto Profil</span>
+                              <span class="fileinput-exists">Ganti Foto Profil</span>
+                              <input type="file" name="...">
+                          </span>
+                      </div>
+                      <div class="input-group">
+                          <span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
+                          <div class="form-group form-group--float">
+                              <input type="text" class="form-control">
+                              <label class="black">No Telepon</label>
+                              <i class="form-group__bar"></i>
+                          </div>
+                      </div>
+                      <div class="input-group">
+                          <span class="input-group-addon"><i class="zmdi zmdi-calendar"></i></span>
+                              <div class="form-group">
+                              <input type='text' class="form-control date-picker" placeholder="Tanggal Lahir">
+                              <i class="form-group__bar"></i>
+                          </div>
+                      </div>
+                      <div class="form-group form-group--select">
+                          <select class="form-control">
+                              <option>Pendidikan Terakhir</option>
+                              <option>SD</option>
+                              <option>SMP</option>
+                              <option>SMA/SMK</option>
+                              <option>Diploma</option>
+                              <option>Sarjana</option>
+                              <option>>Sarjana</option>
+                          </select>
+                      </div>
+                      <div class="fileinput fileinput-new" data-provides="fileinput">
+                          <span class="btn btn-default btn-file">
+                              <span class="fileinput-new">Upload CV (Curriculum Vitae)</span>
+                              <span class="fileinput-exists">Change</span>
+                              <input type="file" name="...">
+                          </span>
+                          <span class="fileinput-filename"></span>
+                          <a href="#" class="fileinput__close fileinput-exists" data-dismiss="fileinput">
+                              <i class="zmdi zmdi-close-circle"></i>
+                          </a>
+                      </div>
+                      <div class="input-group">
+                          <span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
+                          <div class="form-group form-group--float">
+                              <input type="text" class="form-control">
+                              <label class="black">Link Lampiran</label>
+                              <i class="form-group__bar"></i>
+                          </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-link" data-dismiss="modal">Batal</button>
+                      <button type="button" class="btn btn-link">Simpan</button>
+                  </div>
+              </div>
+          </div>
+      </div>
     </section>
+@endsection
+
+@section('page_js')
+  <script src="vendors/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
 @endsection

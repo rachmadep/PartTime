@@ -18,7 +18,7 @@
             <div class="list-group list-group--striped">
               <div class="row">
                 <div class="col-xs-12">
-                  <a href="akun">
+                  <a href="#">
                     <button class="btn btn-primary apply btn--icon-text" style="margin-bottom:10px"><i class="zmdi zmdi-account-circle"></i> Lihat Akun</button>
                   </a>
                 </div>
@@ -87,7 +87,7 @@
                   </div>
                   <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
                     <div class="deskripsi-iklan">
-                      <a href="kerja" class="nama-iklan">
+                      <a href="#" class="nama-iklan">
                         Pengajar Indonesia Android Kejar
                         <div class="kategori">
                           Pengajar

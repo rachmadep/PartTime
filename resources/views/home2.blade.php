@@ -8,20 +8,69 @@
       <div class="col-lg-3 col-md-3 col-xs-12">
         <div class="row profil">{{-- Profil --}}
           <div class="card widget-profile">
-            <h2 class="card__header">
-              Profil
+            <h2 class="card__header" style="margin-bottom:-30px;">
+              Login
             </h2>
-            <div class="card__header card__header--highlight text-center">
+            {{-- <div class="card__header card__header--highlight text-center">
               <img src="{{ asset('img/profil/bagas.png') }}" class="widget-profile__img" alt="">
               <h2>Bagas Aji Pratama</h2>
-            </div>
+            </div> --}}
             <div class="list-group list-group--striped">
               <div class="row">
-                <div class="col-xs-12">
-                  <a href="akun">
-                    <button class="btn btn-primary apply btn--icon-text" style="margin-bottom:10px"><i class="zmdi zmdi-account-circle"></i> Lihat Akun</button>
-                  </a>
-                </div>
+                  <form class="form" role="form" method="POST" action="{{ route('login') }}">
+                      {{ csrf_field() }}
+
+                      <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }} form-group--float form-group--centered">
+                          <input type="text" class="form-control" name="email" value="{{ old('email') }}" style="color:#000;" required autofocus>
+                          @if ($errors->has('email'))
+                              <span class="help-block">
+                                  <strong>{{ $errors->first('email') }}</strong>
+                              </span>
+                          @endif
+                          <label style="color:#000;">E-Mail</label>
+                          <i class="form-group__bar"></i>
+                      </div>
+
+                      <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }} form-group--float form-group--centered">
+                          <input type="password" class="form-control" name="password" style="color:#000;" required>
+                          @if ($errors->has('password'))
+                              <span class="help-block">
+                                  <strong>{{ $errors->first('password') }}</strong>
+                              </span>
+                          @endif
+                          <label style="color:#000;">Password</label>
+                          <i class="form-group__bar"></i>
+                      </div>
+                      <div class="form-group">
+                          <div class="col-md-8">
+                            <div class="checkbox">
+                                <label style="color:#000;">
+                                    <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}>
+                                    Remember Me
+                                    <i class="input-helper"></i>
+                                </label>
+                            </div>
+
+                          </div>
+                          <div class="col-md-4">
+                            <button style="color:#000;" type="submit" class="btn btn-default btn-login">
+                                Masuk
+                            </button>
+                          </div>
+                      </div><br>
+                      <div class="form-group">
+                        <div class="" style="text-align:center;">
+                          <a class="btn-link-login" style="color:#000; display: inline-block;" href="{{ route('password.request') }}">
+                              Lupa Password?
+                          </a>
+                        </div>
+                        <div class="" style="color:#000; text-align:center;">
+                          Belum Punya Akun?<a style="color:#000; display:inline;" class="btn-link-login" href="{{ route('register') }}">
+                              Daftar
+                          </a>
+                        </div>
+                      </div>
+                  </form>
               </div>
             </div>
           </div>
@@ -87,7 +136,7 @@
                   </div>
                   <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
                     <div class="deskripsi-iklan">
-                      <a href="kerja" class="nama-iklan">
+                      <a href="#" class="nama-iklan">
                         Pengajar Indonesia Android Kejar
                         <div class="kategori">
                           Pengajar
