@@ -25,4 +25,14 @@ class DashboardController extends Controller
   {
     return view('lowongan-saya');
   }
+
+  public function tambah_lowongan()
+  {
+    return view('tambah-lowongan');
+  }
+
+  public function pelamar()
+  {
+    return view('pelamar');
+  }
 }

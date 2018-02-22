@@ -23,6 +23,8 @@ Route::get('interview', 'DashboardController@interview');
 Route::get('input-profil', 'DashboardController@input-profil');
 Route::get('akun', 'DashboardController@akun');
 Route::get('lowongan-saya', 'DashboardController@lowongan_saya');
+Route::get('tambah-lowongan', 'DashboardController@tambah_lowongan');
+Route::get('pelamar', 'DashboardController@pelamar');
 
 
 // Route::get('about', 'HomeController@about');

@@ -28,9 +28,9 @@ $(window).load(function(){
         });
     }
 
-    if (!$('.login, .four-zero')[0]) {
-        notify('Welcome back Sofyan Aji Nugraha', '-light');
-    }
+    // if (!$('.login, .four-zero')[0]) {
+    //     notify('Welcome back Sofyan Aji Nugraha', '-light');
+    // }
 });
 
 $(document).ready(function() {
