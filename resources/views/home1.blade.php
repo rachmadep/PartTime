@@ -94,7 +94,7 @@
                   </div>
                   <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
                     <div class="deskripsi-iklan">
-                      <a href="#" class="nama-iklan">
+                      <a href="kerja" class="nama-iklan">
                         Pengajar Indonesia Android Kejar
                         <div class="kategori">
                           Pengajar
@@ -142,7 +142,13 @@
                     <div class="deskripsi-iklan">
                       <a href="#" class="nama-iklan">
                           Barista Antalogi
+                          <div class="kategori">
+                            Tempat Makan
+                          </div>
                       </a>
+                      <div class="posting">
+                        Dana Aji - 2 Februari 2018
+                      </div>
                       <ul>
                         <li>
                           <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
@@ -175,23 +181,29 @@
                 <div class="row list-iklan">
                   <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
-                      <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
+                      <img src="{{ asset('img/pekerjaan/shoes.jpg') }}" alt="">
                     </div>
                   </div>
                   <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
                     <div class="deskripsi-iklan">
-                      <a href="#" class="nama-iklan">
-                          Barista Antalogi
+                      <a href="kerja" class="nama-iklan">
+                        Shoe Polisher Shoes & Care
+                        <div class="kategori">
+                          Cleaning & Janitor
+                        </div>
                       </a>
+                      <div class="posting">
+                        Bagus Putro - 7 Februari 2018
+                      </div>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
+                          <i class="zmdi zmdi-calendar"></i> Jumat-Minggu, 13.00-20.00 WIB
                         </li>
                         <li>
-                          <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
+                          <i class="zmdi zmdi-pin"></i> Jl. Asam Kranji No.3, Yogyakarta
                         </li>
                         <li class="fee">
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
+                          <i class="zmdi zmdi-local-offer"></i> Rp. 80.000 per hari
                         </li>
                       </ul>
                     </div>
@@ -210,24 +222,31 @@
                   </div>
                 </div>
                 {{-- end row iklan --}}
+
                 {{-- row iklan --}}
                 <div class="row list-iklan">
                   <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
-                      <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
+                      <img src="https://spiderimg.amarujala.com/assets/images/2017/11/13/360x243/teacher_1510573856.jpeg" alt="">
                     </div>
                   </div>
                   <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
                     <div class="deskripsi-iklan">
                       <a href="#" class="nama-iklan">
-                          Barista Antalogi
+                        Guru Bimbel Ujian Nasional SD
+                        <div class="kategori">
+                          Pengajar
+                        </div>
                       </a>
+                      <div class="posting">
+                        Bagas Aji - 5 Desember 2017
+                      </div>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
+                          <i class="zmdi zmdi-calendar"></i> Sabtu-Minggu, 15.00-17.00 WIB
                         </li>
                         <li>
-                          <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
+                          <i class="zmdi zmdi-pin"></i> Jl. Karangsuci No.2 C, Yogyakarta
                         </li>
                         <li class="fee">
                           <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
@@ -249,6 +268,7 @@
                   </div>
                 </div>
                 {{-- end row iklan --}}
+
                 <div class="row">
                   <a href="#" class="btn btn-info selengkapny">Lihat Selengkapny</a>
                 </div>
@@ -267,6 +287,52 @@
                 <div class="row list-iklan">
                   <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
+                      <img src="{{ asset('img/pekerjaan/android-kejar.jpg') }}" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
+                    <div class="deskripsi-iklan">
+                      <a href="kerja" class="nama-iklan">
+                        Pengajar Indonesia Android Kejar
+                        <div class="kategori">
+                          Pengajar
+                        </div>
+                      </a>
+                      <div class="posting">
+                        Ardan Bagus - 5 Februari 2018
+                      </div>
+                      <ul>
+                        <li>
+                          <i class="zmdi zmdi-calendar"></i> Sabtu-Minggu, 09.00-15.00 WIB
+                        </li>
+                        <li>
+                          <i class="zmdi zmdi-pin"></i> Gedung EDS Jalan Asam Kranji, Yogyakarta
+                        </li>
+                        <li class="fee">
+                          <i class="zmdi zmdi-local-offer"></i> Rp. 400.000 per hari
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-1 col-md-1 col-xs-12 aksi">
+                    <div class="aksi-iklan">
+                      <ul>
+                        <li>
+                          <a href="#" class="btn btn-success detail">Detail</a>
+                        </li>
+                        <li>
+                          <a href="#" class="btn btn-primary apply">Apply</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                {{-- end row iklan --}}
+
+                {{-- row iklan --}}
+                <div class="row list-iklan">
+                  <div class="col-lg-2 col-md-2 col-xs-3 gambar">
+                    <div class="gambar-iklan">
                       <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
                     </div>
                   </div>
@@ -274,7 +340,13 @@
                     <div class="deskripsi-iklan">
                       <a href="#" class="nama-iklan">
                           Barista Antalogi
+                          <div class="kategori">
+                            Tempat Makan
+                          </div>
                       </a>
+                      <div class="posting">
+                        Dana Aji - 2 Februari 2018
+                      </div>
                       <ul>
                         <li>
                           <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
@@ -302,24 +374,77 @@
                   </div>
                 </div>
                 {{-- end row iklan --}}
+
                 {{-- row iklan --}}
                 <div class="row list-iklan">
                   <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
-                      <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
+                      <img src="{{ asset('img/pekerjaan/shoes.jpg') }}" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
+                    <div class="deskripsi-iklan">
+                      <a href="kerja" class="nama-iklan">
+                        Shoe Polisher Shoes & Care
+                        <div class="kategori">
+                          Cleaning & Janitor
+                        </div>
+                      </a>
+                      <div class="posting">
+                        Bagus Putro - 7 Februari 2018
+                      </div>
+                      <ul>
+                        <li>
+                          <i class="zmdi zmdi-calendar"></i> Jumat-Minggu, 13.00-20.00 WIB
+                        </li>
+                        <li>
+                          <i class="zmdi zmdi-pin"></i> Jl. Asam Kranji No.3, Yogyakarta
+                        </li>
+                        <li class="fee">
+                          <i class="zmdi zmdi-local-offer"></i> Rp. 80.000 per hari
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-1 col-md-1 col-xs-12 aksi">
+                    <div class="aksi-iklan">
+                      <ul>
+                        <li>
+                          <a href="#" class="btn btn-success detail">Detail</a>
+                        </li>
+                        <li>
+                          <a href="#" class="btn btn-primary apply">Apply</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                {{-- end row iklan --}}
+
+                {{-- row iklan --}}
+                <div class="row list-iklan">
+                  <div class="col-lg-2 col-md-2 col-xs-3 gambar">
+                    <div class="gambar-iklan">
+                      <img src="https://spiderimg.amarujala.com/assets/images/2017/11/13/360x243/teacher_1510573856.jpeg" alt="">
                     </div>
                   </div>
                   <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
                     <div class="deskripsi-iklan">
                       <a href="#" class="nama-iklan">
-                          Barista Antalogi
+                        Guru Bimbel Ujian Nasional SD
+                        <div class="kategori">
+                          Pengajar
+                        </div>
                       </a>
+                      <div class="posting">
+                        Bagas Aji - 5 Desember 2017
+                      </div>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
+                          <i class="zmdi zmdi-calendar"></i> Sabtu-Minggu, 15.00-17.00 WIB
                         </li>
                         <li>
-                          <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
+                          <i class="zmdi zmdi-pin"></i> Jl. Karangsuci No.2 C, Yogyakarta
                         </li>
                         <li class="fee">
                           <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari

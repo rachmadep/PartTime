@@ -135,20 +135,26 @@
                 <div class="row list-iklan">
                   <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
-                      <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
+                      <img src="https://spiderimg.amarujala.com/assets/images/2017/11/13/360x243/teacher_1510573856.jpeg" alt="">
                     </div>
                   </div>
                   <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
                     <div class="deskripsi-iklan">
                       <a href="#" class="nama-iklan">
-                          Barista Antalogi
+                        Guru Bimbel Ujian Nasional SD
+                        <div class="kategori">
+                          Pengajar
+                        </div>
                       </a>
+                      <div class="posting">
+                        Bagas Aji - 5 Desember 2017
+                      </div>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
+                          <i class="zmdi zmdi-calendar"></i> Sabtu-Minggu, 15.00-17.00 WIB
                         </li>
                         <li>
-                          <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
+                          <i class="zmdi zmdi-pin"></i> Jl. Karangsuci No.2 C, Yogyakarta
                         </li>
                         <li class="fee">
                           <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
@@ -171,182 +177,14 @@
                 </div>
                 {{-- end row iklan --}}
 
-                {{-- row iklan --}}
-                <div class="row list-iklan">
-                  <div class="col-lg-2 col-md-2 col-xs-3 gambar">
-                    <div class="gambar-iklan">
-                      <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
-                    </div>
-                  </div>
-                  <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
-                    <div class="deskripsi-iklan">
-                      <a href="#" class="nama-iklan">
-                          Barista Antalogi
-                      </a>
-                      <ul>
-                        <li>
-                          <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
-                        </li>
-                        <li>
-                          <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
-                        </li>
-                        <li class="fee">
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-lg-1 col-md-1 col-xs-12 aksi">
-                    <div class="aksi-iklan">
-                      <ul>
-                        <li>
-                          <a href="#" class="btn btn-success detail">Detail</a>
-                        </li>
-                        <li>
-                          <a href="#" class="btn btn-primary apply">Apply</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                {{-- end row iklan --}}
-                {{-- row iklan --}}
-                <div class="row list-iklan">
-                  <div class="col-lg-2 col-md-2 col-xs-3 gambar">
-                    <div class="gambar-iklan">
-                      <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
-                    </div>
-                  </div>
-                  <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
-                    <div class="deskripsi-iklan">
-                      <a href="#" class="nama-iklan">
-                          Barista Antalogi
-                      </a>
-                      <ul>
-                        <li>
-                          <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
-                        </li>
-                        <li>
-                          <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
-                        </li>
-                        <li class="fee">
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-lg-1 col-md-1 col-xs-12 aksi">
-                    <div class="aksi-iklan">
-                      <ul>
-                        <li>
-                          <a href="#" class="btn btn-success detail">Detail</a>
-                        </li>
-                        <li>
-                          <a href="#" class="btn btn-primary apply">Apply</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                {{-- end row iklan --}}
-                <div class="row">
+
+                {{-- <div class="row">
                   <a href="#" class="btn btn-info selengkapny">Lihat Selengkapny</a>
-                </div>
+                </div> --}}
               </div>
           </div>
         </div>{{-- End Terpopuler --}}
 
-        <div class="row lists">{{-- Terbaru --}}
-          <div class="card">
-              <h2 class="card__header">
-                Terbaru
-              </h2>
-              <hr>
-              <div class="list-group">
-                {{-- row iklan --}}
-                <div class="row list-iklan">
-                  <div class="col-lg-2 col-md-2 col-xs-3 gambar">
-                    <div class="gambar-iklan">
-                      <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
-                    </div>
-                  </div>
-                  <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
-                    <div class="deskripsi-iklan">
-                      <a href="#" class="nama-iklan">
-                          Barista Antalogi
-                      </a>
-                      <ul>
-                        <li>
-                          <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
-                        </li>
-                        <li>
-                          <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
-                        </li>
-                        <li class="fee">
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-lg-1 col-md-1 col-xs-12 aksi">
-                    <div class="aksi-iklan">
-                      <ul>
-                        <li>
-                          <a href="#" class="btn btn-success detail">Detail</a>
-                        </li>
-                        <li>
-                          <a href="#" class="btn btn-primary apply">Apply</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                {{-- end row iklan --}}
-                {{-- row iklan --}}
-                <div class="row list-iklan">
-                  <div class="col-lg-2 col-md-2 col-xs-3 gambar">
-                    <div class="gambar-iklan">
-                      <img src="{{ asset('img/pekerjaan/barista.jpg') }}" alt="">
-                    </div>
-                  </div>
-                  <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
-                    <div class="deskripsi-iklan">
-                      <a href="#" class="nama-iklan">
-                          Barista Antalogi
-                      </a>
-                      <ul>
-                        <li>
-                          <i class="zmdi zmdi-calendar"></i> Senin-Kamis, 06.00-10.00 WIB
-                        </li>
-                        <li>
-                          <i class="zmdi zmdi-pin"></i> Co-Working Space Antologi
-                        </li>
-                        <li class="fee">
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 40.000 per hari
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-lg-1 col-md-1 col-xs-12 aksi">
-                    <div class="aksi-iklan">
-                      <ul>
-                        <li>
-                          <a href="#" class="btn btn-success detail">Detail</a>
-                        </li>
-                        <li>
-                          <a href="#" class="btn btn-primary apply">Apply</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                {{-- end row iklan --}}
-                <div class="row">
-                  <a href="#" class="btn btn-info selengkapny">Lihat Selengkapny</a>
-                </div>
-              </div>
-          </div>
-        </div>{{-- End Terbaru --}}
       </div>
       <!-- Modal -->
       <div class="modal fade" id="filter">
