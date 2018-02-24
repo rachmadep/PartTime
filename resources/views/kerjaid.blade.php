@@ -118,6 +118,11 @@
                         <li>
                           <i class="zmdi zmdi-phone"></i> {{ $lowongan->kontak }}
                         </li>
+                        <li>
+                          <i class="zmdi zmdi-check-square"></i> Ijin Usaha
+                          <img src="/img/ijin/{{ $lowongan->ijin }}" alt="" style="width: 50%">
+
+                        </li>
                       </ul>
                     </div>
                   </div>

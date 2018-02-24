@@ -94,7 +94,7 @@
                   </div>
                   <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
                     <div class="deskripsi-iklan">
-                      <a href="#" class="nama-iklan">
+                      <a href="kerja" class="nama-iklan">
                         Pengajar Indonesia Android Kejar
                         <div class="kategori">
                           Pengajar
@@ -120,7 +120,7 @@
                     <div class="aksi-iklan">
                       <ul>
                         <li>
-                          <a href="#" class="btn btn-success detail">Detail</a>
+                          <a href="kerja" class="btn btn-success detail">Detail</a>
                         </li>
                         <li>
                           <a href="#" class="btn btn-primary apply">Apply</a>
