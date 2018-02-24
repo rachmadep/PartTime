@@ -26,4 +26,12 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    /*
+    * Method untuk yang mendefinisikan relasi antara model user dan model Status
+    */
+    public function lowongan()
+    {
+        return $this->hasOne(Lowongan::class, 'user_id', 'id');
+    }
 }

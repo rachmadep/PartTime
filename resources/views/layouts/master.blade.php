@@ -159,10 +159,13 @@
                   <ul>
                       <li><a href="/"><i class="zmdi zmdi-home"></i> Home</a></li>
                       <li><a href="akun"><i class="zmdi zmdi-account-circle"></i> Akun</a></li>
-                      <li><a href="lowongan-saya"><i class="zmdi zmdi-plus-circle"></i> Lowongan Kerja</a></li>
+                      <li><a href="lowongan-saya"><i class="zmdi zmdi-plus-circle"></i> Lowongan Saya</a></li>
                       <li><a href="#"><i class="zmdi zmdi-settings"></i> Pengaturan</a></li>
                       <li><a href="#"><i class="zmdi zmdi-help"></i> Bantuan</a></li>
-                      <li><a href="login"><i class="zmdi zmdi-caret-left-circle"></i> Keluar</a></li>
+                      {{-- <li><a href="{{ route('logout') }}"><i class="zmdi zmdi-caret-left-circle"></i> Keluar</a></li> --}}
+                      <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><i class="zmdi zmdi-caret-left-circle"></i> Keluar</a></li>
+
+                      <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">{{ csrf_field() }}</form>
                   </ul>
               </div>
           </aside>

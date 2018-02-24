@@ -80,6 +80,54 @@
               <hr>
               <div class="list-group">
                 {{-- row iklan --}}
+                @if (!is_null($lowongan))
+                  <div class="row list-iklan">
+                    <div class="col-lg-2 col-md-2 col-xs-3 gambar">
+                      <div class="gambar-iklan">
+                        <img src="/img/profil/{!! $lowongan->foto !!}" alt="">
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
+                      <div class="deskripsi-iklan">
+                        <a href="kerja" class="nama-iklan">
+                          {!! $lowongan->judul !!}
+                          <div class="kategori">
+                            {!! $lowongan->kategori !!}
+                          </div>
+                        </a>
+                        <div class="posting">
+                        24 Februari 2018
+                        </div>
+                        <ul>
+                          <li>
+                            <i class="zmdi zmdi-calendar"></i> {!! $lowongan->hari !!}
+                          </li>
+                          <li>
+                            <i class="zmdi zmdi-pin"></i> {!! $lowongan->lokasi !!}
+                          </li>
+                          <li class="fee">
+                            <i class="zmdi zmdi-local-offer"></i> Rp. {!! $lowongan->gaji !!}
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-xs-12 aksi">
+                      <div class="aksi-iklan">
+                        <ul>
+                          <li>
+                            <a href="kerja/{{ $lowongan->id }}" class="btn btn-success detail">Lihat Detail</a>
+                          </li>
+                          <li>
+                            <a href="#" class="btn btn-primary apply">Lihat Pelamar</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+                @endif
+                {{-- end row iklan --}}
+                {{-- row iklan --}}
                 <div class="row list-iklan">
                   <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">

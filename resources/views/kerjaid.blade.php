@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 {{-- Page title --}}
-@section('title', 'Pengajar Indonesia Android Kejar')
+@section('title', 'Lowongan')
 
 @section('content')
     <section id="content">
@@ -82,51 +82,41 @@
                 <div class="row iklan">
                   <div class="col-lg-4 col-md-4 col-xs-11 gambar">
                     <div class="gambar-iklan">
-                      <img src="{{ asset('img/pekerjaan/android-kejar.jpg') }}" alt="">
+                      <img src="/img/profil/{{ $lowongan->foto }}" alt="">
                     </div>
                   </div>
                   <div class="col-lg-7 col-md-7 col-xs-11 deskripsi">
                     <div class="deskripsi-iklan">
                       <a href="#" class="nama-iklan">
-                        Pengajar Indonesia Android Kejar
+                        {{ $lowongan->judul }}
                         <div class="kategori">
-                          Pengajar
+                          {{ $lowongan->kategori }}
                         </div>
                       </a>
                       <div class="posting">
-                        Ardan Bagus - 5 Februari 2018
+                        {{ $user->name }} - 24 Februari 2018
                       </div>
                       <ul>
                         <li>
-                          <i class="zmdi zmdi-calendar"></i> Sabtu-Minggu, 09.00-15.00 WIB
+                          <i class="zmdi zmdi-calendar"></i> {{ $lowongan->hari }} | {{ $lowongan->jam }}
                         </li>
                         <li>
-                          <i class="zmdi zmdi-pin"></i> Gedung EDS Jalan Asam Kranji, Yogyakarta
+                          <i class="zmdi zmdi-pin"></i> {{ $lowongan->lokasi }}
                         </li>
                         <li>
-                          <i class="zmdi zmdi-edit"></i> Pendidikan : SMA/SMK
+                          <i class="zmdi zmdi-edit"></i> {{ $lowongan->pendidikan }}
                         </li>
                         <li>
-                          <i class="zmdi zmdi-account"></i> Laki-Laki dan Perempuan
+                          <i class="zmdi zmdi-account"></i> {{ $lowongan->kelamin }}
                         </li>
                         <li class="fee">
-                          <i class="zmdi zmdi-local-offer"></i> Rp. 400.000 per hari
+                          <i class="zmdi zmdi-local-offer"></i> Rp {{ $lowongan->gaji }}
                         </li><br>
                         <li>
-                          <i class="zmdi zmdi-view-list-alt"></i> Deskripsi :
-                          <p>
-                            Dibutuhkan Developer yang mahir dalam : <br>
-                            1. Back-End dengan Django. <br>
-                            2. Front-End dengan Ionic. <br><br>
-
-                          </p>
+                          <i class="zmdi zmdi-view-list-alt"></i> {{ $lowongan->deskripsi }}
                         </li>
                         <li>
-                          <i class="zmdi zmdi-phone"></i> Kontak :
-                          <p>
-                            - Ardan (08588523323)<br>
-                            - info@androidkejar.co.id
-                          </p>
+                          <i class="zmdi zmdi-phone"></i> {{ $lowongan->kontak }}
                         </li>
                       </ul>
                     </div>
@@ -138,7 +128,7 @@
                           <a href="#" class="btn btn-success detail">Lihat</a>
                         </li> --}}
                         <li>
-                          <a href="#" class="btn btn-primary apply" data-toggle="modal" data-target="#myModal">Apply</a>
+                          <a href="" class="btn btn-primary apply" data-toggle="modal" data-target="#myModal1">Apply</a>
                         </li>
                       </ul>
                     </div>
@@ -153,21 +143,21 @@
       </div>
 
       <!-- Modal -->
-      <div class="modal fade" id="myModal">
+      <div class="modal fade" id="myModal1">
           <div class="modal-dialog">
               <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">
-                        Sukses Apply pekerjaan!
-                        {{-- <small>Modal description</small> --}}
-                    </h4>
-                </div>
-                <div class="modal-body">
-                    Silahkan menunggu respon dari pemilik usaha.
-                </div>
+                  <div class="modal-header">
+                      <h4 class="modal-title">
+                          Sukses Apply pekerjaan!
+                          {{-- <small>Modal description</small> --}}
+                      </h4>
+                  </div>
+                  {{-- <div class="modal-body">
+                      Silahkan menunggu respon dari pemilik usaha.
+                  </div> --}}
                   <div class="modal-footer">
-                      <button type="button" class="btn btn-link" data-dismiss="modal">Ya</button>
-                      {{-- <button type="button" class="btn btn-link">Ya</button> --}}
+                      <button type="button" class="btn btn-link" data-dismiss="modal">Tidak</button>
+                      <button type="button" class="btn btn-link">Ya</button>
                   </div>
               </div>
           </div>

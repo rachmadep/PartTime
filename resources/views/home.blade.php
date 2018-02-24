@@ -79,6 +79,54 @@
               <hr>
               <div class="list-group">
                 {{-- row iklan --}}
+                @if (!is_null($lowongan))
+                  <div class="row list-iklan">
+                    <div class="col-lg-2 col-md-2 col-xs-3 gambar">
+                      <div class="gambar-iklan">
+                        <img src="/img/profil/{!! $lowongan->foto !!}" alt="">
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-xs-8 deskripsi">
+                      <div class="deskripsi-iklan">
+                        <a href="kerja" class="nama-iklan">
+                          {!! $lowongan->judul !!}
+                          <div class="kategori">
+                            {!! $lowongan->kategori !!}
+                          </div>
+                        </a>
+                        <div class="posting">
+                        {{ $user->name }} - 24 Februari 2018
+                        </div>
+                        <ul>
+                          <li>
+                            <i class="zmdi zmdi-calendar"></i> {!! $lowongan->hari !!}
+                          </li>
+                          <li>
+                            <i class="zmdi zmdi-pin"></i> {!! $lowongan->lokasi !!}
+                          </li>
+                          <li class="fee">
+                            <i class="zmdi zmdi-local-offer"></i> Rp. {!! $lowongan->gaji !!}
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-xs-12 aksi">
+                      <div class="aksi-iklan">
+                        <ul>
+                          <li>
+                            <a href="kerja/{{ $lowongan->id }}" class="btn btn-success detail">Detail</a>
+                          </li>
+                          <li>
+                            <a href="#" class="btn btn-primary apply">Apply</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                @endif
+                {{-- end row iklan --}}
+
+                {{-- row iklan --}}
                 <div class="row list-iklan">
                   <div class="col-lg-2 col-md-2 col-xs-3 gambar">
                     <div class="gambar-iklan">
@@ -263,7 +311,7 @@
                 {{-- end row iklan --}}
 
                 <div class="row">
-                  <a href="#" class="btn btn-info selengkapny">Lihat Selengkapny</a>
+                  <a href="#" class="btn btn-info selengkapny">Lihat Selengkapnya</a>
                 </div>
               </div>
           </div>
@@ -460,7 +508,7 @@
                 </div>
                 {{-- end row iklan --}}
                 <div class="row">
-                  <a href="#" class="btn btn-info selengkapny">Lihat Selengkapny</a>
+                  <a href="#" class="btn btn-info selengkapny">Lihat Selengkapnya</a>
                 </div>
               </div>
           </div>
